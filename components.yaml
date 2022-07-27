@@ -152,7 +152,7 @@ spec:
           name: https
           protocol: TCP
         readinessProbe:
-          failureThreshold: 3
+          failureThreshold: 1
           httpGet:
             path: /readyz
             port: https
